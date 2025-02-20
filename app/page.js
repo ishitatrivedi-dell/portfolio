@@ -39,7 +39,7 @@ export default function Home() {
     },
     {
       category: "Tools",
-      skills: ["Git", "Postman", "VS Code" , "Figma" ]
+      skills: ["Git", "Postman", "VS Code" , "Figma" , "Github" ]
     }
   ];
 
