@@ -21,12 +21,13 @@ const Projects = () => {
         github: 'https://github.com/ishitatrivedi-dell/youtube_react',
       },
     },
+    
     {
       title: 'Mixed Web Application',
       description: 'A multi-functional web app integrating Google, Facebook, Gmail, and Twitter. Built with React.js, Node.js, and MongoDB for seamless third-party integrations.',
       links: {
         github: 'https://github.com/ishitatrivedi-dell/learner_routing',
-        demo: 'https://youtu.be/DVGfTxPL9dE', // Note: This is not a YouTube link, kept as is
+        demo: 'https://learner-routing.onrender.com', // Note: This is not a YouTube link, kept as is
       },
     },
   ];
