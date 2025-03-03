@@ -10,7 +10,7 @@ const Projects = () => {
         figma: 'https://www.figma.com/design/1PDr2aGXQJMBxMr5OSgDRF/Skills-Schedular?node-id=0-1&t=7YKvlO8u3ZMlr8tY-1',
         postman: 'https://documenter.getpostman.com/view/39189818/2sAYX3sixA',
         github: 'https://github.com/ishitatrivedi-dell/skill_scheduler',
-        demo: 'https://youtu.be/0sd4LicL6sI',
+        demo: 'https://www.youtube.com/embed/0sd4LicL6sI', // Changed to embed URL format
       },
     },
     {
@@ -26,25 +26,17 @@ const Projects = () => {
       description: 'A multi-functional web app integrating Google, Facebook, Gmail, and Twitter. Built with React.js, Node.js, and MongoDB for seamless third-party integrations.',
       links: {
         github: 'https://github.com/ishitatrivedi-dell/learner_routing',
-        demo: 'https://learner-routing.onrender.com',
+        demo: 'https://youtu.be/DVGfTxPL9dE', // Note: This is not a YouTube link, kept as is
       },
     },
   ];
 
-  // State to manage modal visibility and video URL
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [videoUrl, setVideoUrl] = useState('');
+  // State to manage which project's video is being shown
+  const [visibleVideo, setVisibleVideo] = useState(null);
 
-  // Function to open modal with video
-  const openModal = (demoUrl) => {
-    setVideoUrl(demoUrl);
-    setIsModalOpen(true);
-  };
-
-  // Function to close modal
-  const closeModal = () => {
-    setIsModalOpen(false);
-    setVideoUrl('');
+  // Function to toggle video visibility
+  const toggleVideo = (projectIndex) => {
+    setVisibleVideo(visibleVideo === projectIndex ? null : projectIndex);
   };
 
   return (
@@ -101,12 +93,28 @@ const Projects = () => {
                     </a>
                   )}
                   {project.links.demo && (
-                    <button
-                      onClick={() => openModal(project.links.demo)}
-                      className="flex items-center bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded transition duration-300"
-                    >
-                      <i className="fas fa-play-circle mr-2"></i>Demo Video
-                    </button>
+                    <>
+                      <button
+                        onClick={() => toggleVideo(index)}
+                        className="flex items-center bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded transition duration-300"
+                      >
+                        <i className="fas fa-play-circle mr-2"></i>
+                        {visibleVideo === index ? 'Hide Demo' : 'Show Demo'}
+                      </button>
+                      {visibleVideo === index && (
+                        <div className="mt-4">
+                          <iframe
+                            width="100%"
+                            height="315"
+                            src={project.links.demo}
+                            title={`${project.title} Demo`}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          ></iframe>
+                        </div>
+                      )}
+                    </>
                   )}
                 </div>
               </div>
@@ -123,30 +131,6 @@ const Projects = () => {
               Back to About Me
             </a>
           </div>
-
-          {/* Modal for Loom Video */}
-          {isModalOpen && (
-            <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-              <div className="bg-gray-800 p-6 rounded-lg shadow-lg max-w-3xl w-full">
-                <div className="flex justify-end">
-                  <button
-                    onClick={closeModal}
-                    className="text-white hover:text-purple-400 transition duration-300"
-                  >
-                    <i className="fas fa-times text-2xl"></i>
-                  </button>
-                </div>
-                <iframe
-                  src={videoUrl}
-                  title="Project Demo Video"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-96 rounded-lg"
-                ></iframe>
-              </div>
-            </div>
-          )}
         </div>
       </main>
     </div>
