@@ -10,7 +10,7 @@ const Projects = () => {
         figma: 'https://www.figma.com/design/1PDr2aGXQJMBxMr5OSgDRF/Skills-Schedular?node-id=0-1&t=7YKvlO8u3ZMlr8tY-1',
         postman: 'https://documenter.getpostman.com/view/39189818/2sAYX3sixA',
         github: 'https://github.com/ishitatrivedi-dell/skill_scheduler',
-        demo: 'https://www.loom.com/share/8c6c50612b544dbebff0469f90b31af7?sid=746c673b-9848-4c0a-ba9e-6342158982c4',
+        demo: 'https://youtu.be/0sd4LicL6sI',
       },
     },
     {
