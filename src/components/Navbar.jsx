@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,17 +25,20 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           {/* Logo/Name */}
-          <NavLink to="/" className="text-2xl font-bold text-white hover:text-purple-400 transition duration-300">
+          <NavLink
+            to="/"
+            className="text-2xl font-bold text-white hover:text-purple-400 transition duration-300"
+          >
             Ishita Trivedi
           </NavLink>
 
-          {/* Hamburger Menu Button (visible on mobile) */}
+          {/* Hamburger Menu Button */}
           <button
             onClick={toggleMenu}
-            className="md:hidden text-white focus:outline-none focus:ring-2 focus:ring-purple-400 rounded"
-            aria-label="Toggle menu"
+            className="block md:hidden text-white focus:outline-none focus:ring-2 focus:ring-purple-400 rounded p-2"
+            aria-label="Toggle navigation menu"
           >
-            <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} text-2xl transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}></i>
+            <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} text-2xl`}></i>
           </button>
 
           {/* Desktop Menu */}
