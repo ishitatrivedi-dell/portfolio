@@ -50,7 +50,7 @@ const Education = () => {
           {/* Optional Back to Resume Link */}
           <div className="text-center mt-12">
             <a
-              href="/resume"
+              href="/"
               className="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white py-3 px-6 rounded-full shadow-lg transform hover:scale-110 transition duration-300"
             >
               <i className="fas fa-arrow-left mr-2"></i>
