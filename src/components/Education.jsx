@@ -27,7 +27,7 @@ const Education = () => {
                 {
                   title: 'Vidhyadhish Vidyasankul',
                   location: 'Bhavnagar city , Bhavnagar',
-                  duration: '2012 - 2019',
+                  duration: '2022 - 2024',
                 },
                 {
                   title: 'RaI University, CodingGita',
