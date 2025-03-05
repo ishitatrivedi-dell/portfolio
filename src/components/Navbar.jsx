@@ -35,14 +35,14 @@ const Navbar = () => {
           {/* Hamburger Menu Button */}
           <button
             onClick={toggleMenu}
-            className="block md:hidden text-white focus:outline-none focus:ring-2 focus:ring-purple-400 rounded p-2"
+            className="block tablet:hidden text-white focus:outline-none focus:ring-2 focus:ring-purple-400 rounded p-2"
             aria-label="Toggle navigation menu"
           >
             <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} text-2xl`}></i>
           </button>
 
-          {/* Desktop Menu */}
-          <ul className="hidden md:flex md:items-center md:space-x-6">
+          {/* Desktop/Tablet Menu */}
+          <ul className="hidden tablet:flex tablet:items-center tablet:space-x-6">
             {navItems.map((item) => (
               <li key={item.name}>
                 <NavLink
@@ -64,7 +64,7 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
-          } md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-gray-800`}
+          } tablet:hidden overflow-hidden transition-all duration-300 ease-in-out bg-gray-800`}
         >
           <ul className="flex flex-col items-center space-y-4 py-4">
             {navItems.map((item) => (
