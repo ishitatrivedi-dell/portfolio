@@ -15,18 +15,23 @@ const UI = () => {
     },
     {
       title: 'Cricket Dashboard',
-      description: 'A cricket Dashboard with different colors used to showcase different team scoring ',
+      description: 'A cricket Dashboard with different colors used to showcase different team scoring.',
       figma: 'https://www.figma.com/design/E5QDdhdb30dEj95NhhDYg2/Untitled?m=auto&t=PIFUU6U1aXCWHiS4-6',
     },
     {
-      title: 'Instagram clone ',
-      description: 'An instagram clone for practicing the figma with different tools and plugins',
+      title: 'Instagram Clone',
+      description: 'An Instagram clone for practicing Figma with different tools and plugins.',
       figma: 'https://www.figma.com/design/QGN8z9OQnQCPzHi7IIbdcA/instagram?m=auto&t=PIFUU6U1aXCWHiS4-6',
     },
     {
-      title: 'Aerospace and rockets Template',
-      description: 'This is the template or the thumbnail for the website which i was making on the rockets and related to areospace',
+      title: 'Aerospace and Rockets Template',
+      description: 'A template/thumbnail for a website related to rockets and aerospace.',
       figma: 'https://www.figma.com/proto/ppSDezzBfSnuvcWsJhcQZw?node-id=0-1&t=PIFUU6U1aXCWHiS4-6',
+    },
+    {
+      title: 'Storytale',
+      description: 'A creative UI/UX design for a storytelling platform, featuring intuitive navigation and visually engaging layouts.',
+      figma: 'https://www.figma.com/design/ppSDezzBfSnuvcWsJhcQZw/storytale?node-id=0-1&t=Zszs2nuMwPsrQMUe-1',
     },
   ];
 
@@ -65,7 +70,7 @@ const UI = () => {
             ))}
           </div>
 
-          {/* Optional Back to Resume Link */}
+          {/* Back to About Me Link */}
           <div className="text-center mt-12">
             <a
               href="/"

@@ -32,17 +32,17 @@ const Navbar = () => {
             Ishita Trivedi
           </NavLink>
 
-          {/* Hamburger Menu Button */}
+          {/* Hamburger Menu Button (Visible only on mobile) */}
           <button
             onClick={toggleMenu}
-            className="block tablet:hidden text-white focus:outline-none focus:ring-2 focus:ring-purple-400 rounded p-2"
+            className="md:hidden text-white focus:outline-none focus:ring-2 focus:ring-purple-400 rounded p-2"
             aria-label="Toggle navigation menu"
           >
             <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} text-2xl`}></i>
           </button>
 
-          {/* Desktop/Tablet Menu */}
-          <ul className="hidden tablet:flex tablet:items-center tablet:space-x-6">
+          {/* Desktop/Tablet Menu (Visible on medium and larger screens) */}
+          <ul className="hidden md:flex md:items-center md:space-x-6">
             {navItems.map((item) => (
               <li key={item.name}>
                 <NavLink
@@ -60,11 +60,11 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu (Visible only when toggled on small screens) */}
         <div
           className={`${
             isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
-          } tablet:hidden overflow-hidden transition-all duration-300 ease-in-out bg-gray-800`}
+          } md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-gray-800`}
         >
           <ul className="flex flex-col items-center space-y-4 py-4">
             {navItems.map((item) => (
