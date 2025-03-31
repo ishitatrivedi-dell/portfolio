@@ -42,11 +42,11 @@ const LeetCode = () => {
                 <p className="text-gray-400">Problems Solved</p>
               </div>
               <div className="text-center">
-                <p className="text-lg font-semibold text-white">12,863</p>
+                <p className="text-lg font-semibold text-white">12/863</p>
                 <p className="text-gray-400">Easy</p>
               </div>
               <div className="text-center">
-                <p className="text-lg font-semibold text-white">2,185</p>
+                <p className="text-lg font-semibold text-white">2/185</p>
                 <p className="text-gray-400">Medium</p>
               </div>
               <div className="text-center">

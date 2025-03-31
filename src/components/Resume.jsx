@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from './Navbar';
 
 const Resume = () => {
   return (
@@ -26,15 +26,15 @@ const Resume = () => {
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start">
                   <i className="fas fa-circle text-xs text-purple-500 mt-2 mr-2"></i>
-                  <span>Gyanmanjri Vidhyapith Secondary School , Mahuva , Bhavnagar (2019-2022)</span>
+                  <span>RaI University, CodingGita (B.Tech in Computer Science)</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fas fa-circle text-xs text-purple-500 mt-2 mr-2"></i>
-                  <span>Vidhydhish VidhyaSankul , Bhavanagar (2012-2019)</span>
+                  <span>Vidhydhish VidhyaSankul , Bhavanagar </span>
                 </li>
                 <li className="flex items-start">
                   <i className="fas fa-circle text-xs text-purple-500 mt-2 mr-2"></i>
-                  <span>RaI University, CodingGita (B.Tech in Computer Science, Ongoing)</span>
+                  <span>Gyanmanjri Vidhyapith Secondary School , Mahuva , Bhavnagar </span>
                 </li>
               </ul>
             </div>
@@ -87,8 +87,6 @@ const Resume = () => {
               </div>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
-                  <i className="fas fa-phone text-purple-500 mr-2"></i>
-                  <span>Phone: +91 8883600026</span>
                 </li>
                 <li className="flex items-center">
                   <i className="fas fa-envelope text-purple-500 mr-2"></i>

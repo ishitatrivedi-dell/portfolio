@@ -20,19 +20,16 @@ const Education = () => {
             <ul className="space-y-6 text-gray-300">
               {[
                 {
-                  title: 'Gyanmanjri Vidhyapith Secondary School ',
-                  location: 'Mahuva , Bhavnagar',
-                  duration: '2019 - 2022',
+                  title: 'RaI University, CodingGita',
+                  location: 'Currently pursuing B.Tech in Computer Science',
                 },
                 {
                   title: 'Vidhyadhish Vidyasankul',
                   location: 'Bhavnagar city , Bhavnagar',
-                  duration: '2022 - 2024',
                 },
                 {
-                  title: 'RaI University, CodingGita',
-                  location: 'Currently pursuing B.Tech in Computer Science',
-                  duration: 'Ongoing',
+                  title: 'Gyanmanjri Vidhyapith Secondary School ',
+                  location: 'Mahuva , Bhavnagar',
                 },
               ].map((edu, index) => (
                 <li key={index} className="flex items-start">
