@@ -99,7 +99,7 @@ const Resume = () => {
           {/* Download Button */}
           <div className="text-center mt-12">
             <a
-              href="../../public/Ishita Resume .pdf"
+              href="../../public//resume.pdf"
               download
               className="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white py-3 px-6 rounded-full shadow-lg transform hover:scale-110 transition duration-300"
             >

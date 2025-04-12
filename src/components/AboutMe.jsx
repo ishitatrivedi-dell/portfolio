@@ -9,103 +9,103 @@ const AboutMe = () => {
       title: 'Resume',
       icon: 'fas fa-file-alt',
       summary:
-        'My resume encapsulates my entire academic and professional journey. It details my education, including my ongoing *B.Tech in Computer Science* at Rai University (2024-2028), my higher secondary education at Vidhydhish VidhyaSankul in Bhavnagar (2022-2024), and secondary education at Gyanmanjri Vidhyapith Secondary School in Mahuva, Bhavnagar (2019-2022). My skills encompass front-end technologies like HTML, CSS (preferred over Tailwind), and JavaScript, frameworks such as React, backend tools including Node.js, Express.js, and MongoDB (without Mongoose), plus C and C++ for problem-solving, version control with Git, and strong communication skills. I’m fluent in *Hindi*, *English*, and *Gujarati*. Contact details include my phone (+91 8883600026) and email (ishita.trivedi.cg@gmail.com). A downloadable PDF version is available for full details.',
+        'My resume highlights my academic journey and technical expertise. Currently pursuing a *B.Tech in Computer Science* at Rai University (2024-2028), I specialize in front-end (HTML, CSS, JavaScript, React) and back-end (Node.js, Express.js, MongoDB) development. Proficient in C, C++, and Git, I’m also fluent in *Hindi*, *English*, and *Gujarati*. Download my resume for a detailed overview.',
       link: '/resume',
     },
     {
       title: 'Education',
       icon: 'fas fa-graduation-cap',
       summary:
-        'My educational path has built a solid foundation for my career in technology. I am currently enrolled in a *B.Tech in Computer Science* at (CodingGita X Rai University), where I am learning advanced programming concepts, web development techniques, and backend development skills. Prior to this, I completed my higher secondary education at Vidhyadhish Vidyasankul in Bhavnagar city, Bhavnagar (2022-2024), achieving academic excellence and honing my analytical abilities. My secondary education was at Gyanmanjri Vidhyapith Secondary School in Mahuva, Bhavnagar (2019-2022), where I first engaged with computer science, sparking my passion for coding and development that continues to drive my studies today.',
+        'My education fuels my passion for tech. I’m studying *B.Tech in Computer Science* at Rai University, mastering programming and web development. I completed higher secondary at Vidhyadhish Vidyasankul, Bhavnagar (2022-2024), and secondary at Gyanmanjri Vidhyapith, Mahuva (2019-2022), where my interest in coding began.',
       link: '/education',
     },
     {
       title: 'Skills',
       icon: 'fas fa-tools',
       summary:
-        'I have cultivated an extensive skill set tailored to full-stack development, technical problem-solving, and academic proficiency. My front-end expertise includes HTML, CSS (my preferred styling method over Tailwind CSS), JavaScript, and frameworks like React and Angular JS for creating dynamic and interactive user interfaces. On the backend, I’m adept with Node.js, Express.js, and NoSQL Databases such as MongoDB (opting not to use Mongoose) and Redis, enabling me to build robust server-side applications. I’m skilled in C and C++, with a focus on Object-Oriented Programming with C++ for algorithmic challenges and structured coding. My academic skills include Mathematics II for analytical problem-solving and Environment Studies for interdisciplinary awareness. I also have experience with version control with Git for project management and various tools and platforms essential for development workflows. My strong communication skills facilitate effective teamwork and project coordination, enhancing my technical capabilities.',
+        'I’m a full-stack enthusiast with expertise in HTML, CSS, JavaScript, and React for dynamic front-ends, and Node.js, Express.js, and MongoDB for robust back-ends. Skilled in C++ for algorithmic challenges, Git for version control, and clear communication for teamwork, I thrive in building scalable solutions.',
       link: '/skills',
     },
     {
       title: 'Projects',
       icon: 'fas fa-project-diagram',
       summary:
-        'My project portfolio demonstrates my practical experience in web development across multiple domains. Skill Scheduler is a standout project—a study planner with progress tracking built using React.js, Node.js, Express.js, MongoDB, and RESTful APIs, featuring Figma designs (*https://www.figma.com/design/1PDr2aGXQJMBxMr5OSgDRF/Skills-Schedular*), Postman documentation (*https://documenter.getpostman.com/view/39189818/2sAYX3sixA*), GitHub repository (*https://github.com/ishitatrivedi-dell/skill_scheduler*), and a demo video (*https://www.youtube.com/embed/0sd4LicL6sI*). The YouTube Clone supports video uploads, categories, and search, developed with React.js, Node.js, Express.js, and MongoDB (GitHub: *https://github.com/ishitatrivedi-dell/youtube_react*, Postman: *https://documenter.getpostman.com/view/39189818/2sAYXEDxN7*). Mixed Web Application integrates Google, Facebook, Gmail, and Twitter using React.js and Node.js (GitHub: *https://github.com/ishitatrivedi-dell/learner_routing*, Demo: *https://learner-routing.onrender.com*). Additional projects include the Spotify Clone for UI practice (GitHub: *https://github.com/ishitatrivedi-dell/Spotify-react*), Neural Style Transfer static site (GitHub: *https://github.com/ishitatrivedi-dell/nst*), and static websites for Cocktail, MealDB, Bank, and Potter using React and APIs.',
+        'My projects showcase my development skills. *Skill Scheduler*, a study planner, uses React, Node.js, and MongoDB with RESTful APIs. My *YouTube Clone* supports video uploads and search, while *Mixed Web App* integrates social platforms. Explore my GitHub for more, including Spotify and static API-driven sites.',
       link: '/projects',
     },
     {
       title: 'UI/UX Designs',
       icon: 'fas fa-paint-brush',
       summary:
-        'My UI/UX design work, executed in Figma, showcases my ability to craft intuitive and visually appealing interfaces. Skill Scheduler features a sleek, user-friendly study planner UI (*https://www.figma.com/design/1PDr2aGXQJMBxMr5OSgDRF/Skills-Schedular?m=auto&t=PIFUU6U1aXCWHiS4-6*). The Learning App offers a minimalist design for tracking goals, tasks, and analytics with video integration (*https://www.figma.com/design/zFLRIgR7VtGg7h13rDXNTl/learning-app?m=auto&t=PIFUU6U1aXCWHiS4-6*). Cricket Dashboard uses vibrant colors to display team scoring (*https://www.figma.com/design/E5QDdhdb30dEj95NhhDYg2/Untitled?m=auto&t=PIFUU6U1aXCWHiS4-6*). Instagram Clone refines my Figma skills with tools and plugins (*https://www.figma.com/design/QGN8z9OQnQCPzHi7IIbdcA/instagram?m=auto&t=PIFUU6U1aXCWHiS4-6*). Aerospace and Rockets Template provides a thematic thumbnail for aerospace-related content (*https://www.figma.com/proto/ppSDezzBfSnuvcWsJhcQZw?node-id=0-1&t=PIFUU6U1aXCWHiS4-6*), and Storytale is a planetary system knowledge layout with book purchasing and review features (*https://www.figma.com/design/ppSDezzBfSnuvcWsJhcQZw/storytale?node-id=0-1&t=Zszs2nuMwPsrQMUe-1*).',
+        'I design intuitive interfaces with Figma. Highlights include *Skill Scheduler*’s clean study planner UI, a vibrant *Cricket Dashboard*, and a minimalist *Learning App*. My *Instagram Clone* and *Storytale* layouts reflect my focus on user-friendly, visually appealing designs.',
       link: '/ui',
     },
     {
       title: 'LeetCode Activity',
       icon: 'fas fa-code',
       summary:
-        'I actively refine my coding skills on LeetCode under the username IshitaTrivedi06 (*https://leetcode.com/u/IshitaTrivedi06/*), currently ranked *3,625,670*. I’ve solved 14 out of 34,474 problems, with a breakdown of *12,863 easy*, *2,185 medium*, and *0 out of 806 hard problems*, all coded in C++. My recent accepted submissions include *"Power of Two"* (22 days ago), *"Remove Element"* (22 days ago), and *"Greatest Common Divisor of Strings"* (25 days ago), totaling *18 submissions* in the past year. Community stats show *0 views*, *0 likes*, *0 solutions*, *0 discussions*, and *0 reputation*, with no badges earned yet, indicating my ongoing commitment to enhancing algorithmic proficiency as a Computer Science student.',
+        'I sharpen my problem-solving on LeetCode as *IshitaTrivedi06*. With some problems solved in C++, including *Power of Two**, Remove Element* etc .. , I’m steadily building my algorithmic skills to tackle real-world challenges efficiently.',
       link: '/leetcode',
     },
     {
       title: 'Social Media',
       icon: 'fas fa-share-alt',
       summary:
-        'My social media profiles bridge my work with the broader tech community. On LinkedIn (*https://www.linkedin.com/in/ishita-trivedi0611/*), I post professional updates, connect with peers, and explore opportunities. GitHub (*https://github.com/ishitatrivedi-dell*) serves as a repository hub for my projects, including *Skill Scheduler*, *YouTube Clone*, *Spotify Clone*, and more, offering transparency into my coding process. Twitter (*https://x.com/IshitaTrivedi06*) is where I share real-time thoughts on tech trends, project updates, and engage with followers, building a network around my interests in web development and programming.',
+        'I connect with the tech community online. Follow me on *LinkedIn* for professional updates, *GitHub* for project insights like *Skill Scheduler*, and *Twitter* for thoughts on coding and trends. Let’s build something great together!',
       link: '/social-media',
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-gray-900 to-indigo-950 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-teal-900 via-slate-800 to-purple-900 text-gray-100">
       <Navbar />
-      <section id="about-me" className="py-20">
-        <div className="container mx-auto px-6">
+      <section id="about-me" className="py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header with Icon */}
-          <div className="flex items-center justify-center mb-16">
-            <i className="fas fa-user text-4xl text-indigo-400 mr-4"></i>
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <div className="flex items-center justify-center mb-12 animate-zoom-in">
+            <i className="fas fa-user text-4xl text-teal-400 mr-4 animate-bounce"></i>
+            <h2 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-r from-teal-300 via-purple-400 to-pink-400 bg-clip-text text-transparent tracking-tight shadow-sm">
               About Me
             </h2>
           </div>
 
           {/* Personal Intro */}
-          <div className="max-w-4xl mx-auto bg-gray-800/50 backdrop-blur-md p-8 rounded-xl shadow-2xl mb-16 hover:shadow-indigo-500/20 transition-all duration-300">
-            <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="max-w-4xl mx-auto bg-slate-900/70 backdrop-blur-md p-6 sm:p-8 rounded-3xl shadow-xl mb-12 hover:shadow-teal-400/30 transition-shadow duration-500 border border-teal-400/50">
+            <div className="flex flex-col md:flex-row items-center gap-8">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4D03AQEGi0alMoJJOw/profile-displayphoto-shrink_400_400/B4DZVTB5enGkAg-/0/1740854764265?e=1746057600&v=beta&t=-rYJWY_EtIpPKQyJvC8NI_UUQKe2fqny_aVFCweXN28"
-                alt="Ish=Ishita Trivedi"
-                className="w-56 h-56 rounded-full object-cover border-4 border-indigo-400 shadow-lg hover:scale-105 transition-transform duration-300"
+                src="https://media.licdn.com/dms/image/v2/D4E03AQGL1ERh28fP-w/profile-displayphoto-shrink_400_400/B4EZYUoRExHgAg-/0/1744102823525?e=1749686400&v=beta&t=NUW-d2u7Hu_K6Pn976L644mtqf1X7ctn6A3_f04WM-8"
+                alt="Ishita Trivedi"
+                className="w-52 h-52 rounded-full object-cover border-4 border-teal-400 shadow-lg hover:scale-110 transition-transform duration-300"
               />
               <div className="flex-1">
-                <p className="text-gray-200 text-lg leading-relaxed">
-                  Hey there! I am a B.Tech Computer Science student at Rai University, diving deep into the world of coding with a fiery passion for web development and backend magic. I wield HTML, CSS, JavaScript, and React like a front-end, while mastering Node.js, Express.js, and MongoDB (no Mongoose for me—I like it raw!) on the backend. 
+                <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
+                  Hey! I’m a B.Tech Computer Science student at Rai University, hooked on building awesome web apps. I rock front-end with HTML, CSS, JavaScript, and React, and power back-ends with Node.js, Express.js, and MongoDB. 
                   <br /><br />
-                  Recently, I’ve been leveling up my game with Redux for state management wizardry, Object-Oriented Programming (OOP)in C++ to structure my code like a pro, and Data Structures and Algorithms (DSA) to tackle complex problems with finesse. Curious about my skills?{' '}
+                  Right now, I’m mastering Redux for slick state management, OOP in C++ for clean code, and DSA for cracking tough problems. Want a peek at my skills?{' '}
                   <button
                     onClick={() => setIsSkillsOpen(!isSkillsOpen)}
-                    className="text-indigo-400 hover:text-indigo-300 underline transition-colors duration-200"
+                    className="text-pink-300 hover:text-pink-200 underline transition-colors duration-200"
                   >
-                    Click here to see my evolving skill set!
+                    Click to explore!
                   </button>
                   {isSkillsOpen && (
-                    <span className="block mt-2 text-indigo-200 italic animate-fade-in">
-                      - Redux: Managing app states like a boss.<br />
-                      - OOP: Building reusable, scalable code with C++.<br />
-                      - DSA: Cracking arrays, trees, and graphs with C++ finesse!
+                    <span className="block mt-3 text-pink-200 italic animate-fade-slide-up">
+                      - Redux: Taming app states.<br />
+                      - OOP: Crafting modular C++ code.<br />
+                      - DSA: Nailing algorithms with style!
                     </span>
                   )}
                   <br /><br />
-                  I’ve built cool stuff like Skill Scheduler—a study planner with progress tracking—and clones of Spotify and YouTube, plus static sites for Cocktail, MealDB, and more using React and APIs. Right now, I’m exploring Material UI for sleek designs, adding authentication to Skill Scheduler, and cooking up a fresh project (stay tuned!). I code on Linux, love beginner-friendly explanations, and keep my solutions simple yet powerful.
+                  I’ve built Skill Scheduler, YouTube and Spotify Clones, and cool static sites. I’m diving into Material UI, boosting Skill Scheduler with auth, and dreaming up my next project. Coding on Linux, I keep it clear and collaborative!
                 </p>
-                <div className="text-center mt-10">
+                <div className="text-center mt-8">
                   <a
-                    href="../../public/Ishita Resume .pdf"
+                    href="/Ishita_Resume.pdf" // Update with your actual resume path
                     download
-                    className="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white py-3 px-8 rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+                    className="inline-flex items-center bg-gradient-to-r from-teal-600 to-purple-600 hover:from-teal-700 hover:to-purple-700 text-white py-3 px-8 rounded-full shadow-lg hover:shadow-pink-400/40 hover:scale-105 hover:rotate-3 transition-all duration-300 animate-pulse"
                   >
                     <i className="fas fa-download mr-2"></i>
-                    Download Full Resume
+                    Grab My Resume
                   </a>
                 </div>
               </div>
@@ -114,30 +114,30 @@ const AboutMe = () => {
 
           {/* Overview Section */}
           <div className="max-w-5xl mx-auto">
-            <h3 className="text-4xl font-semibold text-center mb-20 text-indigo-300 border-b-2 border-indigo-400 pb-4 animate-fade-in-down">
+            <h3 className="text-2xl sm:text-3xl font-extrabold text-center mb-16 bg-gradient-to-r from-teal-300 to-purple-400 bg-clip-text text-transparent tracking-tight shadow-sm animate-zoom-in">
               Overview
             </h3>
-            <div className="flex flex-col gap-12">
+            <div className="flex flex-col gap-8">
               {overviews.map((overview, index) => (
                 <div
                   key={index}
-                  className="bg-gray-800/70 backdrop-blur-lg p-10 rounded-2xl shadow-xl hover:shadow-indigo-500/30 transition-all duration-500 border-l-4 border-indigo-500 hover:border-indigo-400 animate-fade-in-up"
-                  style={{ animationDelay: `${index * 0.3}s` }}
+                  className="bg-slate-900/70 backdrop-blur-md p-6 sm:p-8 rounded-3xl shadow-xl hover:shadow-teal-400/40 transition-all duration-500 border-l-4 border-teal-400 hover:border-pink-400 animate-fade-in-slide"
+                  style={{ animationDelay: `${index * 0.2}s` }}
                 >
-                  <div className="flex items-center mb-8">
-                    <i className={`${overview.icon} text-4xl text-indigo-400 mr-6 animate-bounce`}></i>
-                    <h4 className="text-3xl font-semibold bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+                  <div className="flex items-center mb-6">
+                    <i className={`${overview.icon} text-4xl text-teal-400 mr-5 animate-bounce hover:scale-125 transition-transform duration-300`}></i>
+                    <h4 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-teal-300 to-purple-400 bg-clip-text text-transparent">
                       {overview.title}
                     </h4>
                   </div>
-                  <p className="text-gray-200 text-lg leading-loose mb-8">
+                  <p className="text-gray-200 text-base sm:text-lg leading-loose mb-6">
                     {overview.summary.split(/(\*\*.*?\*\*|\*.*?\*)/g).map((part, i) =>
                       part.match(/\*\*(.*?)\*\*/) ? (
-                        <span key={i} className="font-bold text-white">
+                        <span key={i} className="font-bold text-gray-100">
                           {part.replace(/\*\*/g, '')}
                         </span>
                       ) : part.match(/\*(.*?)\*/) ? (
-                        <span key={i} className="italic text-indigo-300">
+                        <span key={i} className="italic text-pink-300">
                           {part.replace(/\*/g, '')}
                         </span>
                       ) : (
@@ -147,7 +147,7 @@ const AboutMe = () => {
                   </p>
                   <a
                     href={overview.link}
-                    className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 hover:scale-110 hover:rotate-2 transition-all duration-300 shadow-md hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                    className="inline-flex items-center px-5 py-3 bg-gradient-to-r from-teal-600 to-purple-600 text-white rounded-lg hover:bg-gradient-to-r hover:from-teal-700 hover:to-purple-700 hover:scale-105 hover:rotate-3 transition-all duration-300 shadow-md hover:shadow-pink-400/40 focus:outline-none focus:ring-2 focus:ring-pink-300"
                   >
                     Visit Page <i className="fas fa-arrow-right ml-3"></i>
                   </a>
@@ -158,42 +158,44 @@ const AboutMe = () => {
         </div>
       </section>
       <style jsx global>{`
-        @keyframes fadeInDown {
+        @keyframes fadeInSlide {
           0% {
             opacity: 0;
-            transform: translateY(-30px);
+            transform: translateX(-50px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+        @keyframes fadeSlideUp {
+          0% {
+            opacity: 0;
+            transform: translateY(20px);
           }
           100% {
             opacity: 1;
             transform: translateY(0);
           }
         }
-        @keyframes fadeInUp {
+        .animate-fade-in-slide {
+          animation: fadeInSlide 0.8s ease-out forwards;
+        }
+        .animate-fade-slide-up {
+          animation: fadeSlideUp 0.5s ease-in forwards;
+        }
+        .animate-zoom-in {
+          animation: zoomIn 1s ease-out forwards;
+        }
+        @keyframes zoomIn {
           0% {
             opacity: 0;
-            transform: translateY(30px);
+            transform: scale(0.8);
           }
           100% {
             opacity: 1;
-            transform: translateY(0);
+            transform: scale(1);
           }
-        }
-        @keyframes fadeIn {
-          0% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-          }
-        }
-        .animate-fade-in-down {
-          animation: fadeInDown 1s ease-out forwards;
-        }
-        .animate-fade-in-up {
-          animation: fadeInUp 1s ease-out forwards;
-        }
-        .animate-fade-in {
-          animation: fadeIn 0.5s ease-in forwards;
         }
       `}</style>
     </div>

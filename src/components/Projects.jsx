@@ -34,7 +34,7 @@ const Projects = () => {
     {
       title: 'Mixed Web Application',
       description: 'A multi-functional web app integrating Google, Facebook, Gmail, and Twitter APIs for a seamless user experience.',
-      technologies: 'React.js, Node.js, Express.js, RESTful APIs',
+      technologies: 'React.js, RESTful APIs',
       links: {
         github: 'https://github.com/ishitatrivedi-dell/learner_routing',
         demo: 'https://www.youtube.com/embed/DVGfTxPL9dE',
