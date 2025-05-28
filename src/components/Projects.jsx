@@ -50,7 +50,7 @@ const Projects = () => {
       technologies: 'React.js, CSS',
       links: {
         github: 'https://github.com/ishitatrivedi-dell/Spotify-react',
-        live: 'https://spotify-react-wine.vercel.app/',
+        image: '../assets/spotify.png',
       },
     },
     {
@@ -60,6 +60,16 @@ const Projects = () => {
       links: {
         github: 'https://github.com/ishitatrivedi-dell/nst',
         live: 'https://nst-ishita-trivedis-projects.vercel.app/',
+        image: '../', // Path to Newton School screenshot
+      },
+    },
+    {
+      title: 'Creative Agency Website',
+      description: 'A modern, responsive website for a creative agency with a bold hero section, service cards, and contact area (Nexlify design).',
+      technologies: 'HTML, CSS',
+      links: {
+        github: 'https://github.com/your-username/professional-website-showcase/tree/main/agency', // Replace with your repo link
+        image: '../assets/test.png', // Path to Nexlify screenshot
       },
     },
   ];
@@ -219,6 +229,28 @@ const Projects = () => {
                 >
                   <h3 className="text-2xl font-semibold text-white mb-2">{project.title}</h3>
                   <p className="text-gray-300 mb-4">{project.description}</p>
+                  {project.links.image && (
+                    <div className="mb-4">
+                      <img
+                        src={project.links.image}
+                        alt={`${project.title} Screenshot`}
+                        className="w-full h-auto rounded-lg shadow-md"
+                      />
+                    </div>
+                  )}
+                  {project.links.demo && (
+                    <div className="mb-4">
+                      <iframe
+                        width="100%"
+                        height="315"
+                        src={project.links.demo}
+                        title={`${project.title} Demo`}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  )}
                   <p className="text-gray-400 mb-4">
                     <span className="font-semibold text-white">Technologies:</span> {project.technologies}
                   </p>

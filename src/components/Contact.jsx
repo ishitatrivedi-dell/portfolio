@@ -57,7 +57,7 @@ const Contact = () => {
             <div className="text-gray-300">
               <p className="flex items-center mb-2">
                 <i className="fas fa-phone mr-2"></i>
-                Phone: +91 8883600026
+                Phone: +91 88********
               </p>
               <p className="flex items-center">
                 <i className="fas fa-envelope mr-2"></i>
